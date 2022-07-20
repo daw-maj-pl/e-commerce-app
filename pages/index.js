@@ -1,9 +1,10 @@
 import { client } from '../lib/client';
+import { HeroBanner } from '../components';
 
 const Home = () => {
   return (
     <>
-      HeroBanner
+      <HeroBanner />
       <div className="products-heading">
         <h2>Best Seller Products</h2>
         <p>Speakers of many variations</p>
